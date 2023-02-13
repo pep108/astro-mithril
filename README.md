@@ -8,6 +8,21 @@ Mithril is an extremely lightweight and flexible client-side JavaScript framewor
 
 ## Installation
 
+### Quick Install
+  
+The `astro add` command-line tool automates the installation for you. Run one of the following commands in a new terminal window. (If you aren't sure which package manager you're using, run the first command.) Then, follow the prompts, and type "y" in the terminal (meaning "yes") for each one.
+  
+```sh
+# Using NPM
+npx astro add astro-mithril
+# Using Yarn
+yarn astro add astro-mithril
+# Using PNPM
+pnpm astro add astro-mithril
+```
+  
+If you run into any issues, [feel free to report them to us on GitHub](https://github.com/pep108/astro-mithril/issues) and try the manual installation steps below.
+
 ### Install dependencies manually
 
 First, install the `astro-mithril` integration like so:

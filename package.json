@@ -1,7 +1,7 @@
 {
   "name": "astro-mithril",
   "description": "Use Mithril components within Astro",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "types": "./dist/index.d.ts",
   "author": "pep108",
