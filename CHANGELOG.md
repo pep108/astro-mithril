@@ -1,4 +1,4 @@
-# @astrojs/mithril
+# astro-mithril
 
 ## 0.0.1
 
