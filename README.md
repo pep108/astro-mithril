@@ -43,6 +43,10 @@ To use your first Mithril component in Astro, head to the Astro [UI framework do
 - 💧 client-side hydration options, and
 - 🤝 opportunities to mix and nest frameworks together
 
+## Example
+
+Check out the example in the /example folder
+
 ## Troubleshooting
 
 For help, check out the `#support` channel on [Discord](https://astro.build/chat).
