@@ -1,8 +1,8 @@
 function getRenderer() {
   return {
-    name: "@astrojs/mithril",
-    clientEntrypoint: "@astrojs/mithril/client.js",
-    serverEntrypoint: "@astrojs/mithril/server.js",
+    name: "astro-mithril",
+    clientEntrypoint: "astro-mithril/client.js",
+    serverEntrypoint: "astro-mithril/server.js",
     jsxImportSource: "react",
     jsxTransformOptions: async () => {
       var _a;
@@ -31,7 +31,7 @@ function getViteConfiguration() {
 }
 function src_default() {
   return {
-    name: "@astrojs/mithril",
+    name: "astro-mithril",
     hooks: {
       "astro:config:setup": ({ addRenderer, updateConfig }) => {
         addRenderer(getRenderer());
