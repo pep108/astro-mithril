@@ -1,6 +1,6 @@
-# @astrojs/mithril ⚛️
+# astro-mithril ⚛️
 
-This **[Astro integration][astro-integration]** enables server-side rendering and client-side hydration for your [Mithril](https://mithril.js.org/) components.
+This **[Astro integration](https://docs.astro.build/en/guides/integrations-guide/)** enables server-side rendering and client-side hydration for your **[Mithril](https://mithril.js.org/)** components.
 
 ## Why Mithril?
 
@@ -38,17 +38,17 @@ export default defineConfig({
 
 ## Getting started
 
-To use your first Mithril component in Astro, head to our [UI framework documentation][astro-ui-frameworks]. You'll explore:
+To use your first Mithril component in Astro, head to the Astro [UI framework documentation](https://docs.astro.build/en/core-concepts/framework-components/). You'll explore:
 - 📦 how framework components are loaded,
 - 💧 client-side hydration options, and
 - 🤝 opportunities to mix and nest frameworks together
 
 ## Troubleshooting
 
-For help, check out the `#support` channel on [Discord](https://astro.build/chat). Our friendly Support Squad members are here to help!
+For help, check out the `#support` channel on [Discord](https://astro.build/chat).
 
-You can also check our [Astro Integration Documentation][astro-integration] for more on integrations.
+You can also check our [Astro Integration Documentation](https://docs.astro.build/en/guides/integrations-guide/) for more on integrations.
 
 ## Contributing
 
-This package is maintained by pep108. You're welcome to submit an issue or PR!
+This package is maintained by [pep108](https://github.com/pep108/). You're welcome to submit an issue or PR!
