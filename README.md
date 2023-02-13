@@ -4,7 +4,7 @@ This **[Astro integration](https://docs.astro.build/en/guides/integrations-guide
 
 ## Why Mithril?
 
-Mithril is an extremely lightweight and flexible client-side JavaScript framework. It's small (<10 kb gzip) but powerful and fun to work with. The Astro starter project with a simple Mithril button & counter loaded a total of 37.8 kB. The idential Astro starter project with the same button & countered rendered by React loaded 150 kB.
+Mithril is an extremely lightweight and flexible client-side JavaScript framework. It's small (<10 kb gzip) but powerful and fun to work with. The Astro starter project with a simple Mithril button & counter loaded a total of 37.8 kB. The identical Astro starter project with the same button & counter rendered by React loaded 150 kB.
 
 ## Installation
 
