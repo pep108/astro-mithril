@@ -9,6 +9,12 @@ async function check(Component, props, children) {
   // way to check if the Component is valid is to try rendering it
 	let error = null;
 	let isMithrilComponent = false;
+
+  // all mithril components need a view method
+  if (props && !props.view) {
+    return false
+  }
+
 	function Tester(...args) {
 		try {
       const vnode = m(Component, args)
@@ -16,6 +22,7 @@ async function check(Component, props, children) {
       isMithrilComponent = true;
 		} catch (err) {
 			error = err;
+      return false
 		}
 
     return m('div')
