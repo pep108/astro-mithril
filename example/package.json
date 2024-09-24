@@ -11,8 +11,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro-mithril": "^0.0.5",
-    "astro": "^2.0.10",
+    "astro-mithril": "^0.0.8",
+    "astro": "^4.15.8",
     "mithril": "^2.2.2"
   }
 }
