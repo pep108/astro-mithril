@@ -48,6 +48,14 @@ import mithril from 'astro-mithril';
 export default defineConfig({
   // ...
   integrations: [mithril()],
+  // Add below setting if you want to use JSX
+  vite: {
+      esbuild: {
+          jsx: "transform",
+          jsxFactory: "m",
+          jsxFragment: "'['",
+      }
+  }
 });
 ```
 
