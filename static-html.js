@@ -5,10 +5,10 @@ import m from 'mithril'
  * a wrapper `div` to render that content as VNodes.
  */
 const StaticHtml = {
-  view: ({ attrs: { name, value }}) => {
-    if (!value) return null;
-    return m('astro-slot', { name }, m.trust(value));
-  }
-};
+    view: ({ attrs: { name, value } }) => {
+        if (!value) return null
+        return m('astro-slot', { name }, m.trust(value))
+    },
+}
 
-export default StaticHtml;
+export default StaticHtml

@@ -1,4 +1,4 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from 'tsup'
 
 // __filename and __dirname shims
 // - https://github.com/egoist/tsup/search?q=__filename
@@ -8,19 +8,17 @@ export default defineConfig(async (options) => {
         ...options,
         clean: true,
         dts: false,
-        entry: [
-            "src/index.ts",
-        ],
-        format: ["esm"],
+        entry: ['src/index.ts'],
+        format: ['esm'],
         keepNames: true,
         minifyIdentifiers: false,
         minifySyntax: !options.watch,
         minifyWhitespace: !options.watch,
         onSuccess:
-            "tsc --emitDeclarationOnly --declaration --declarationMap --declarationDir ./dist",
-        outDir: "dist",
+            'tsc --emitDeclarationOnly --declaration --declarationMap --declarationDir ./dist',
+        outDir: 'dist',
         shims: true,
         sourcemap: true,
         splitting: false,
-    };
-});
+    }
+})
